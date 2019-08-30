@@ -1,0 +1,300 @@
+\documentclass{article}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+
+\usepackage{array}
+\usepackage{longtable}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+
+
+
+\begin{kframe}
+\begin{alltt}
+\hlstd{reviewArticlesTable} \hlkwb{<-} \hlstd{mydata.filtered[,}\hlkwd{c}\hlstd{(}\hlstr{"AnalysisID"}\hlstd{,}\hlstr{"Year"}\hlstd{,}\hlstr{"ArticleName"}\hlstd{)]}
+\hlstd{tablica} \hlkwb{<-} \hlkwd{xtable}\hlstd{(reviewArticlesTable,}\hlkwc{auto}\hlstd{=}\hlnum{TRUE}\hlstd{,} \hlkwc{align} \hlstd{=} \hlkwd{c}\hlstd{(}\hlstr{"l"}\hlstd{,}\hlstr{"|L\{1cm\}"}\hlstd{,} \hlstr{"|L\{1cm\}"}\hlstd{,} \hlstr{"|L\{12cm\}|"}\hlstd{))}
+\hlkwd{print}\hlstd{(tablica,} \hlkwc{hline.after}\hlstd{=}\hlkwd{c}\hlstd{(}\hlopt{-}\hlnum{1}\hlstd{,} \hlnum{0}\hlstd{),} \hlkwc{tabular.environment} \hlstd{=} \hlstr{"longtable"}\hlstd{)}
+\end{alltt}
+
+
+{\ttfamily\noindent\color{warningcolor}{\#\# Warning in print.xtable(tablica, hline.after = c(-1, 0), tabular.environment = "{}longtable"{}): Attempt to use "{}longtable"{} with floating = TRUE. Changing to FALSE.}}\end{kframe}% latex table generated in R 3.3.3 by xtable 1.8-2 package
+% Wed Aug 23 14:05:43 2017
+\begin{longtable}{l|L{1cm}|L{1cm}|L{12cm}|}
+  \hline
+ & AnalysisID & Year & ArticleName \\ 
+  \hline
+140 & A1 & 1980 & Robinson SS, Soffa ML. An instructional aid for student programs. ACM SIGCSE Bulletin. New York, NY, USA: ACM; 1980. p. 118–29. \\ 
+  141 & A2 & 1981 & Donaldson JL, Lancaster A-M, Sposato PH. A plagiarism detection system. ACM SIGCSE Bull. New York, NY, USA: ACM; 1981 Feb 1;13(1):21–5. \\ 
+  142 & A3 & 1981 & Grier S. A Tool That Detects Plagiarism in Pascal Programs. Proceedings of the Twelfth SIGCSE Technical Symposium on Computer Science Education. New York, NY, USA: ACM; 1981. p. 15–20. \\ 
+  143 & A4 & 1987 & Faidhi JAW, Robinson SK. An empirical approach for detecting program similarity and plagiarism within a university programming environment. Comput Educ. 1987;11(1):11–9. \\ 
+  144 & A5 & 1988 & Hamblen J, Parker A, Wachtel S. A new undergraduate computer arithmetic software laboratory. Educ IEEE Trans. 1988;31(3):177–80. \\ 
+  145 & A6 & 1988 & Jankowitz HT. DETECTING PLAGIARISM IN STUDENT PASCAL PROGRAMS. Comput J. 1988;31(1):1–8. \\ 
+  146 & A7 & 1989 & Parker A, Hamblen JO. Computer algorithms for plagiarism detection. IEEE Trans Educ. 1992;v(n):94–9. \\ 
+  147 & A8 & 1990 & RAMBALLY GK, LESAGE M. AN INDUCTIVE INFERENCE APPROACH TO PLAGIARISM DETECTION IN COMPUTER-PROGRAMS. In: ELLIS E, editor. PROCEEDINGS - NATIONAL EDUCATIONAL COMPUTING CONFERENCE 1990. EUGENE: INT SOC TECHNOLOGY EDUCATION; 1990. p. 23–9. \\ 
+  148 & A9 & 1990 & Whale G. Identification of program similarity in large populations. Comput J. 1990;33(2):140–6. \\ 
+  149 & A10 & 1990 & Whale G. Software metrics and plagiarism detection. J Syst Softw. 1990;13(2):131–8. \\ 
+  150 & A11 & 1992 & Wise MJ. Detection of similarities in student programs: YAP’ing may be preferable to Plague’ing. In: Anon, editor. SIGCSE Bulletin (Association for Computing Machinery, Special Interest Group on Computer Science Education). Kansas City, MO, USA: Publ by ACM, Fort Collins, CO, United States; 1992. p. 268–71. \\ 
+  151 & A12 & 1995 & Traxler J. Plagiarism in Programming: A Review and Discussion of the Factors. Proceedings of the Second International Conference on Software Engineering in Higher Education II. Billerica, MA, USA: Computational Mechanics, Inc.; 1996. p. 131–8. \\ 
+  152 & A13 & 1996 & Verco KL, Wise MJ. Plagiarism a la mode: A comparison of automated systems for detecting suspected plagiarism. Comput J. 1996;39(9):749–50. \\ 
+  153 & A14 & 1996 & Wise MJ. YAP3: improved detection of similarities in computer program and other texts. Proceedings of the twenty-seventh SIGCSE technical symposium on Computer science education - SIGCSE ’96. New York, New York, USA: ACM Press; 1996. p. 130–4. \\ 
+  154 & A15 & 1998 & Novak MM. Correlations in computer programs. Fractals. School of Physics, Kingston University, Surrey KT1 2EE, United Kingdom; 1998;6(2):131–8. \\ 
+  155 & A16 & 1999 & Bowyer KW, Hall LO. Experience using “MOSS” to detect cheating on programming assignments. Frontiers in Education Conference, 1999 FIE ’99 29th Annual. 1999. p. 13B3/18-13B3/22 vol.3. \\ 
+  156 & A17 & 1999 & Gitchell D, Tran N. Sim: A utility for detecting similarity in computer programs. SIGCSE Bulletin. 1999. p. 266–70. \\ 
+  157 & A18 & 1999 & Joy M, Luck M. Plagiarism in programming assignments. IEEE Trans Educ. 1999 May;42(2):129–33. \\ 
+  158 & A19 & 2000 & Kar DC. Detection of Plagiarism in Computer Programming Assignments. J Comput Sci Coll. USA: Consortium for Computing Sciences in Colleges; 2000;15(3):266–76. \\ 
+  159 & A20 & 2001 & Jones EL. Metrics Based Plagarism Monitoring. J Comput Sci Coll. USA: Consortium for Computing Sciences in Colleges; 2001;16(4):253–61. \\ 
+  160 & A21 & 2002 & Ghosh M, Verma B, Nguyen A. An Automatic Assessment Marking And Plagiarism Detection. Proceedings of the First International Conference on Information Technology and Applications (ICITA 2002). Bathurst; 2002. p. 489–94. \\ 
+  161 & A22 & 2002 & Prechelt L., Malpohl G., Philippsen M. Finding plagiarisms among a set of programs with JPlag. J Univers Comput Sci. 2002;8(11):1016–38. \\ 
+  162 & A23 & 2004 & Chen X, Francia B, Li M, McKinnon B, Seker A. Shared information and program plagiarism detection. Inf Theory, IEEE Trans. Piscataway, NJ, USA: IEEE Press; 2004;50(7):1545–51. \\ 
+  163 & A24 & 2004 & Johnson MC, Watson C, Davidson S, Eschbach D. Gene sequence inspired design plagiarism screening. ASEE 2004 Annual Conference and Exposition, “Engineering Researchs New Heights.” Purdue University, United States; 2004. p. 6087–105. \\ 
+  164 & A25 & 2005 & Daly C, Horgan J. A technique for detecting plagiarism in computer code. Comput J. 2005;48(6):662–6. \\ 
+  165 & A26 & 2005 & Jonyer I, Apiratikul P, Thomas J. Source code fingerprinting using graph grammar induction. In: I. R, Z. M, editors. Recent Advances in Artifical Intelligence - Eighteenth International Florida Artificial Intelligence Research Society Conference, FLAIRS 2005. Oklahoma State University, Department of Computer Science, 700 N Greenwood Ave, Tulsa, OK 74106, United States; 2005. p. 468–73. \\ 
+  166 & A27 & 2005 & Kim Y-C, Choi J. A program plagiarism evaluation system. In: Gervasi O. Gavrilova M.L. KVLALHPMYTDTCJK, editor. Lecture Notes in Computer Science. 2005. p. 10–9. \\ 
+  167 & A28 & 2005 & Lancaster T, Tetlow M. Does automated anti-plagiarism have to be complex? evaluating more appropriate software metrics for finding collusion. 22nd  Annual conference of the Australian Society for Computers in Tertiary Education, ASCILITE 2005. Department of Computing, University of Central England, Birmingham, B42 2SU, United Kingdom; 2005. p. 361–70. \\ 
+  168 & A29 & 2005 & Moussiades L, Vakali A. PDetect: A clustering approach for detecting plagiarism in source code datasets. Comput J. Division of Computing Systems, Department of Industrial Informatics, Technological Educational Institute of Kavala, GR-65404 Kavala, Greece; 2005;48(6):651–61. \\ 
+  169 & A30 & 2005 & Mozgovoy M, Fredriksson K, White D, Joy M, Sutinen E. Fast Plagiarism Detection System. Lecture Notes in Computer Science. Berlin, Heidelberg: Springer-Verlag; 2005. p. 267–70. \\ 
+  170 & A31 & 2006 & Ahtiainen A, Surakka S, Rahikainen M. Plaggie: GNU-licensed source code plagiarism detection engine for Java exercises. 6th Baltic Sea Conference on Computing Education Research - Koli Calling 2006. Helsinki University of Technology, P.O.Box 5400, FI-02015 HUT, Finland; 2006. p. 141–2. \\ 
+  171 & A32 & 2006 & Arwin C, Tahaghoghi SMM. Plagiarism detection across programming languages. 29th Australasian Computer Science Conference, ACSC 2006. School of Computer Science and Information Technology, RMIT University, GPO Box 2476V, Melbourne 3001, Australia; 2006. p. 277–86. \\ 
+  172 & A33 & 2006 & Mann S, Frew Z. Similarity and originality in code: Plagiarism and normal variation in student assignments. Conferences in Research and Practice in Information Technology Series. Hobart, TAS; 2006. p. 143–50. \\ 
+  173 & A34 & 2006 & Marais E, Minnaar U, Argles D. Plagiarism in e-Learning Systems: Identifying and Solving the Problem for Practical Assignments. Advanced Learning Technologies, 2006 Sixth International Conference on. 2006. p. 822–4. \\ 
+  174 & A35 & 2006 & Mozgovoy M. Desktop tools for offline plagiarism detection in computer programs. Informatics Educ. 2006;5(1):97–112. \\ 
+  175 & A36 & 2006 & Roxas RE, Lim NR, Bautista N. Automatic Generation of Plagiarism Detection Among Student Programs. Information Technology Based Higher Education and Training, 2006 ITHET ’06 7th International Conference on. 2006. p. 226–35. \\ 
+  176 & A37 & 2007 & Burrows S, Tahaghoghi SMM, Zobel J. Efficient plagiarism detection for large code repositories. Softw Pract Exp. 2007 Feb;37(2):151–75. \\ 
+  177 & A38 & 2007 & Zhang L, Zhuang Y, Yuan Z. A Program Plagiarism Detection Model Based on Information Distance and Clustering. Intelligent Pervasive Computing, 2007 IPC The 2007 International Conference on. 2007. p. 431–6. \\ 
+  178 & A39 & 2008 & Ciesielski V, Wu N, Tahaghoghi S. Evolving similarity functions for code plagiarism detection. 10th Annual Genetic and Evolutionary Computation Conference, GECCO 2008. School of CS and IT, RMIT University, PO Box 2476V, Melbourne, VIC 3078, Australia; 2008. p. 1453–60. \\ 
+  179 & A40 & 2008 & Cosma G, Joy M. Towards a definition of source-code plagiarism. IEEE Trans Educ. Department of Computer Science, University of Warwick, Coventry CV4 7AL, United Kingdom; 2008;51(2):195–200. \\ 
+  180 & A41 & 2008 & Freire M. Visualizing program similarity in the AC plagiarism detection system. Proceedings of the Workshop on Advanced Visual Interfaces AVI. Naples; 2008. p. 404–7. \\ 
+  181 & A42 & 2008 & Jadalla A, Elnagar A. PDE4Java: Plagiarism Detection Engine for Java source code: a clustering approach. Int J Bus Intell Data Min. Department of Computer Science, College of Arts and Science, University of Sharjah, 27272 Sharjah, United Arab Emirates; 2008;3(2):121. \\ 
+  182 & A43 & 2008 & Ji J-H, Park S-H, Woo G, Cho H-G. Generating pylogenetic tree of homogeneous source code in a plagiarism detection system. Int J Control Autom Syst. Graduate School of Computer Engineering, Pusan National University, Jangjeon-gu, Geumjeong-dong, Pusan 609-735, South Korea; 2008;6(6):809–17. \\ 
+  183 & A44 & 2008 & Ji J-H, Woo G, Cho H-G. A plagiarism detection technique for Java program using bytecode analysis. 3rd International Conference on Convergence and Hybrid Information Technology, ICCIT 2008. Dept. of Computer Engineering, Pusan National University, Busan, South Korea; 2008. p. 1092–8. \\ 
+  184 & A45 & 2008 & Ng SC., Choy SO., Kwan R. An intelligent online assessment system for programming courses. Enhancing Learning Through Technology: Research on Emerging Technologies and Pedagogies. World Scientific Publishing Co.; 2008. 217-232 p. \\ 
+  185 & A46 & 2008 & Rosales F, Garcia A, Rodriguez S, Pedraza JL, Mendez R, Nieto MM. Detection of Plagiarism in Programming Assignments. Educ IEEE Trans. 2008;51(2):174–83. \\ 
+  186 & A47 & 2009 & Cebrian M, Alfonseca M, Ortega A. Towards the Validation of Plagiarism Detection Tools by Means of Grammar Evolution. IEEE Trans Evol Comput. 2009 Jun;13(3):477–85. \\ 
+  187 & A48 & 2009 & Doyle TE, Sheng Q, Ieta A. Entropy based verification of academic integrity. Comput Educ J. McMaster University, Canada; 2009;19(1):70–6. \\ 
+  188 & A49 & 2009 & Konecki M, Orehovacki T, Lovrencic A. Detecting computer code plagiarism in higher education. Information Technology Interfaces, 2009 ITI ’09 Proceedings of the ITI 2009 31st International Conference on. 2009. p. 409–14. \\ 
+  189 & A50 & 2009 & Kustanto C, Liem I. Automatic source code plagiarism detection. 10th ACIS Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing, SNPD 2009, In conjunction with IWEA 2009 and WEACR 2009. School of Electrical Engineering and Informatics, Institut Teknologi Bandung, Bandung, Indonesia; 2009. p. 481–6. \\ 
+  190 & A51 & 2009 & Lukácsy G, Szeredi P. Plagiarism detection in source programs using structural similarities. Acta Cybern. Budapest University of Technology and Economics (BUTE), Department of Computer Science and Information Theory, Magyar tudósok körútja 2., 1117 Budapest, Hungary; 2009;19(1):191–216. \\ 
+  191 & A52 & 2009 & Sraka D, Kaučič B. Source code plagiarism. ITI 2009 31st International Conference on Information Technology Interfaces, ITI 2009. Faculty of Education, Kardeljeva pl. 16, 1000 Ljbuljana; 2009. p. 461–6. \\ 
+  192 & A53 & 2009 & Vogts D. Plagiarising of source code by novice programmers a “cry for help”? Annual Research Conference of the South African Institute of Computer Scientists and Information Technologists, SAICSIT 2009. Nelson Mandela Metropolitan University, P.O. Box 77000, Port Elizabeth, 6031, South Africa; 2009. p. 141–9. \\ 
+  193 & A54 & 2009 & Xiong H, Yan H, Li Z, Li H. BUAA-AntiPlagiarism: A system to detect plagiarism for C source code. 2009 International Conference on Computational Intelligence and Software Engineering, CiSE 2009. School of Computer Science and Engineering, Beihang University, Beijing, China; 2009. \\ 
+  194 & A55 & 2010 & Al-Khanjari ZA., Fiaidhi JA., Al-Hinai RA., Kutti NS. PlagDetect: A java programming plagiarism detection tool. ACM Inroads. 2010;1(4):66–71. \\ 
+  195 & A56 & 2010 & Brixtel R, Fontaine M, Lesner B, Bazin C, Robbes R. Language-Independent Clone Detection Applied to Plagiarism Detection. 2010 10th IEEE Working Conference on Source Code Analysis and Manipulation. GREYC-CNRS (UMR-6072), University of Caen Basse-Normandie, 14000 Caen, France: IEEE; 2010. p. 77–86. \\ 
+  196 & A57 & 2010 & Chen R, Hong L, Lü C, Deng W. Author identification of software source code with program dependence graphs. 34th Annual IEEE International Computer Software and Applications Conference Workshops, COMPSACW 2010. School of Information Science and Technology, Dalian Maritime University, Dalian 116026, China; 2010. p. 281–6. \\ 
+  197 & A58 & 2010 & Chudá D, Kováčová B. Checking plagiarism in e-learning. 11th International Conference on Computer Systems and Technologies, CompSysTech’10. Institute of Informatics and Software Engineering, Faculty of Informatics and Information Technology, Slovak University of Technology, Bratislava, Slovakia; 2010. p. 419–24. \\ 
+  198 & A59 & 2010 & Chuda D, Navrat P. Support for checking plagiarism in e-learning. Procedia - Soc Behav Sci. 2010;2(2):3140–4. \\ 
+  199 & A60 & 2010 & El Bachir Menai M, Al-Hassoun NS. Similarity detection in Java programming assignments. 2010 5th International Conference on Computer Science \& Education. Department of Computer Science, CCIS - King Saud University, P.O. Box 51178, Riyadh 11543, Saudi Arabia: IEEE; 2010. p. 356–61. \\ 
+  200 & A61 & 2010 & Huang L, Shi S, Huang H. A new method for code similarity detection. 2010 1st IEEE International Conference on Progress in Informatics and Computing, PIC 2010. College of Computer Science and Technology, Nanjing University of Science and Technology, Nanjing, China; 2010. p. 1015–8. \\ 
+  201 & A62 & 2010 & Kaučič B, Sraka D, Ramsak M, Krašna M. Observations on plagiarism in programming courses. 2nd International Conference on Computer Supported Education, CSEDU 2010. Department of Mathematics and Computer Science, Faculty of Education, University of Ljubljana, Kardeljeva Ploščad 16, Ljubljana, Slovenia; 2010. p. 181–4. \\ 
+  202 & A63 & 2010 & Kuo JY, Huang FC. Code analyzer for an online course management system. J Syst Softw. Department of Computer Science and Information Engineering, National Taipei University of Technology, Taipei 106, Taiwan; 2010;83(12):2478–86. \\ 
+  203 & A64 & 2010 & Lesner B, Brixtel R, Bazin C, Bagan G. A novel framework to detect source code plagiarism: Now, students have to work for real! 25th Annual ACM Symposium on Applied Computing, SAC 2010. GREYC (CNRS UMR 6072), 6, Avenue Maréchal Juin, F14032 Caen Cedex, France; 2010. p. 57–8. \\ 
+  204 & A65 & 2010 & Li X, Zhong XJ. The source code plagiarism detection using AST. 2010 International Symposium on Intelligence Information Processing and Trusted Computing, IPTC 2010. School of Computer Science and Technology, SouthWest University for Nationalities, Chengdu 610041, China; 2010. p. 406–8. \\ 
+  205 & A66 & 2010 & Mei ZMZ, Dongsheng LDL, Zhong M, Liu D. An XML plagiarism detection model for C program. Adv Comput Theory Eng (ICACTE), 2010 3rd Int Conf. Chengdu; 2010;1:V1-460-V1-464. \\ 
+  206 & A67 & 2010 & Mei Z, DongSheng L. An XML plagiarism detection algorithm for Procedural Programming Languages. Educational and Information Technology (ICEIT), 2010 International Conference on. 2010. p. V3-427-V3-431. \\ 
+  207 & A68 & 2010 & Nunome A, Hirata H, Fukuzawa M, Shibayama K. Development of an E-learning back-end system for code assessment in elementary programming practice. Proceedings ACM SIGUCCS User Services Conference. Norfolk, VA; 2010. p. 181–6. \\ 
+  208 & A69 & 2010 & Oetsch J, Pührer J, Schwengerer M, Tompits H. The system Kato: Detecting cases of plagiarism for answer-set programs. Theory Pract Log Program. Technische Universität Wien, Institut für Informationssysteme 184/3, Favoritenstrae 9-11, A-1040 Vienna, Austria; 2010;10(4–6):759–75. \\ 
+  209 & A70 & 2010 & Ueta K, Tominaga H. A development and application of similarity detection methods for plagiarism of online reports. 2010 9th International Conference on Information Technology Based Higher Education and Training, ITHET 2010. Kagawa University, 2217-20, Hayashi-cho, Takamatsu, Japan; 2010. p. 363–71. \\ 
+  210 & A71 & 2010 & Wu S, Hao Y, Gao X, Cui B, Bian C. Homology Detection Based on Abstract Syntax Tree Combined Simple Semantics Analysis. Web Intelligence and Intelligent Agent Technology (WI-IAT), 2010 IEEE/WIC/ACM International Conference on. 2010. p. 410–4. \\ 
+  211 & A72 & 2010 & Yang S, Wang X. A visual domain recognition method based on function mode for source code plagiarism. 2010 International Symposium on Intelligent Information Technology and Security Informatics, IITSI 2010. Electronic and Information Engineering School, Dalian University of Technology, Dalian, China; 2010. p. 580–4. \\ 
+  212 & A73 & 2010 & Yang S, Wang X, Shao C, Zhang P. Recognition on source codes similarity with weighted attributes eigenvector. 2010 International Conference on Intelligent Control and Information Processing, ICICIP 2010. Faculty of Information and Electrical Engineering, Dalian University of Technology, Dalian, 116024, China; 2010. p. 539–43. \\ 
+  213 & A74 & 2011 & Chen G, Zhang Y, Wang X. Analysis on Identification Technologies of Program Code Similarity. Information Technology, Computer Engineering and Management Sciences (ICM), 2011 International Conference on. 2011. p. 188–91. \\ 
+  214 & A75 & 2011 & Hage J, Rademaker P, van Vugt N. Plagiarism Detection for Java: A Tool Comparison. Computer Science Education Research Conference. Open Univ., Heerlen, The Netherlands, The Netherlands: Open Universiteit, Heerlen; 2011. p. 33–46. \\ 
+  215 & A76 & 2011 & Joy M, Cosma G, Yau JY-K, Sinclair J. Source Code Plagiarism\&\#x2014;A Student Perspective. IEEE Trans Educ. Department of Computer Science, University of Warwick, Coventry CV4 7AL, United Kingdom; 2011 Feb;54(1):125–32. \\ 
+  216 & A77 & 2011 & Luquini E, Omar N. Programming plagiarism as a social phenomenon. 2011 IEEE Global Engineering Education Conference (EDUCON). Information System Dep., Faculdade Módulo, Sao Paulo, Brazil: IEEE; 2011. p. 895–902. \\ 
+  217 & A78 & 2011 & Mateljan V, Juričić V, Peter K. Analysis of programming code similarity by using intermediate language. 34th International Convention on Information and Communication Technology, Electronics and Microelectronics, MIPRO 2011. Faculty of Humanities and Social Sciences, Department of Information Sciences, Zagreb, Croatia; 2011. p. 1235–40. \\ 
+  218 & A79 & 2011 & Meyer C, Heeren C, Shaffer E, Tedesco J. CoMoTo - The collaboration modeling toolkit. ITiCSE’11 - Proceedings of the 16th Annual Conference on Innovation and Technology in Computer Science. Darmstadt; 2011. p. 143–7. \\ 
+  219 & A80 & 2011 & Ohno A, Murao H. A two-step in-class source code plagiarism detection method utilizing improved CM algorithm and SIM. Int J Innov Comput Inf Control. Department of Life Design, Shijonawate Gakuen Junior College, 4-10-25, Hojo, Daito, Osaka 574-0011, Japan; 2011;7(8):4729–39. \\ 
+  220 & A81 & 2012 & Aasheim CL., Rutner PS., Li L., Williams SR. Plagiarism and programming: A survey of student attitudes. J Inf Syst Educ. 2012;23(3):297–314. \\ 
+  221 & A82 & 2012 & Arabyarmohamady S, Moradi H, Asadpour M. A coding style-based plagiarism detection. 2012 International Conference on Interactive Mobile and Computer Aided Learning, IMCL 2012. Advanced Robotics and Intelligent Systems Laboratory, School of Electrical and Computer Engineering, University of Tehran, Iran; 2012. p. 180–6. \\ 
+  222 & A83 & 2012 & Asadullah A, M. B, Stern I, Bhat VD. Design Patterns Based Pre-processing of Source Code for Plagiarism Detection. 2012 19th Asia-Pacific Software Engineering Conference. Infosys Labs, Bangalore, India: IEEE; 2012. p. 128–35. \\ 
+  223 & A84 & 2012 & Bosnić I, Mihaljević B, Orlić M, Žagar M. Source code validation and plagiarism detection: Technology-rich course experiences. 4th International Conference on Computer Supported Education, CSEDU 2012. Faculty of Electrical Engineering and Computing, University of Zagreb, Unska 3, Zagreb, Croatia; 2012. p. 149–54. \\ 
+  224 & A85 & 2012 & Campos RAC, Martinez FJZ. Batch source-code plagiarism detection using an algorithm for the bounded longest common subsequence problem. 2012 9th International Conference on Electrical Engineering, Computing Science and Automatic Control, CCE 2012. Departamento de Sistemas, UAM Azcapotzalco, Mexico City, Mexico; 2012. \\ 
+  225 & A86 & 2012 & Chuda D, Navrat P, Kovacova B, Humay P. The Issue of (Software) Plagiarism: A Student View. Educ IEEE Trans. 2012;55(1):22–8. \\ 
+  226 & A87 & 2012 & Cosma G, Joy M. An Approach to Source-Code Plagiarism Detection and Investigation Using Latent Semantic Analysis. IEEE Trans Comput. P.A. College, PO Box 40763, Larnaca 6307, Cyprus; 2012 Mar;61(3):379–94. \\ 
+  227 & A88 & 2012 & Cosma G, Joy M. Evaluating the performance of LSA for source-code plagiarism detection. Inform. Department of Business Computing, PA College, Larnaca, CY-7560, Cyprus; 2012;36(4):409–24. \\ 
+  228 & A89 & 2012 & Inoue U, Wada S. Detecting plagiarisms in elementary programming courses. Fuzzy Systems and Knowledge Discovery (FSKD), 2012 9th International Conference on. 2012. p. 2308–12. \\ 
+  229 & A90 & 2012 & Jia S, Dongsheng L, Zhang L, Liu C. A research on plagiarism detecting method based on XML similarity and clustering. International Workshop on Internet of Things, IOT 2012. Computer and Information Engineering College, Inner Mongolia Normal University, Hohhot, China; 2012. p. 619–26. \\ 
+  230 & A91 & 2012 & Kaushal R, Singh A. Automated evaluation of programming assignments. Engineering Education: Innovative Practices and Future Trends (AICERA), 2012 IEEE International Conference on. 2012. p. 1–5. \\ 
+  231 & A92 & 2012 & Kechao W, Tiantian W, Mingkui Z, Zhifei W, Xiangmin R. Detection of plagiarism in students’ programs using a data mining algorithm. Proceedings of 2012 2nd International Conference on Computer Science and Network Technology. Changchun: IEEE; 2012. p. 1318–21. \\ 
+  232 & A93 & 2012 & Khaustov PA. The NCP algorithm of fuzzy source code comparison. 2012 7th International Forum on Strategic Technology, IFOST 2012. Department of Computer Engineering, National Research Tomsk Polytechnic University, Tomsk, Russian Federation; 2012. \\ 
+  233 & A94 & 2012 & Kuo JY, Huang FC, Hung C, Hong L, Yang Z. The Study of Plagiarism Detection for Object-Oriented Programming. Genetic and Evolutionary Computing (ICGEC), 2012 Sixth International Conference on. 2012. p. 188–91. \\ 
+  234 & A95 & 2012 & Lee Y-J, Lim J-S, Ji J-H, Cho H-G, Woo G. Plagiarism detection among source codes using adaptive methods. KSII Trans Internet Inf Syst. Center of U-Port IT Research and Education, Pusan National University, Busandaehak-ro 63beon-gil, Geumjeong-gu, Busan 609-735, South Korea; 2012;6(6):1627–48. \\ 
+  235 & A96 & 2012 & Mariani L, Micucci D. AuDeNTES: Automatic detection of teNtative plagiarism according to a rEference solution. ACM Trans Comput Educ. 2012;12(1). \\ 
+  236 & A97 & 2012 & Narayanan S, Simi S. Source code plagiarism detection and performance analysis using fingerprint based distance measure method. 2012 7th International Conference on Computer Science and Education, ICCSE 2012. Department of CSE, FISAT, Cochin, India; 2012. p. 1065–8. \\ 
+  237 & A98 & 2012 & Ng S-C, Lui AK-F, Wong L-S. Tree-based comparison for plagiarism detection and automatic marking of programming assignments. 2012 International Conference on ICT in Teaching and Learning, ICT 2012. School of Science and Technology, Open University of Hong Kong, Hong Kong, Hong Kong; 2012. p. 165–79. \\ 
+  238 & A99 & 2012 & Poon JYH, Sugiyama K, Tan YF, Kan M-Y. Instructor-centric source code plagiarism detection and plagiarism corpus. 17th ACM Conference on Innovation and Technology in Computer Science Education, ITiCSE’12. National University of Singapore Computing 1, 13 Computing Drive, Singapore 117417, Singapore; 2012. p. 122–7. \\ 
+  239 & A100 & 2012 & Shan S., Guo F., Ren J. Similarity detection method based on assembly language and string matching. Adv Intell Soft Comput. Wuhan; 2012;148 AISC(VOL. 1):363–7. \\ 
+  240 & A101 & 2013 & Ajmal O, Saad Missen MM, Hashmat T, Moosa M, Ali T. EPlag: A two layer source code plagiarism detection system. 8th International Conference on Digital Information Management, ICDIM 2013. Dept. of Computer Science and IT, Islamia University of Bahawalpur, Pakistan; 2013. p. 256–61. \\ 
+  241 & A102 & 2013 & Chilowicz M, Duris É, Roussel G. Viewing functions as token sequences to highlight similarities in source code. Sci Comput Program. Université Paris-Est, Laboratoire d’Informatique Gaspard-Monge, UMR CNRS 8049, 5 Bd Descartes, 77454 Marne-la-Vallée cedex 2, France; 2013;78(10):1871–91. \\ 
+  242 & A103 & 2013 & Duric Z, Gasevic D. A Source Code Similarity System for Plagiarism Detection. Comput J. Faculty of Electrical Engineering, University of Banjaluka, Patre 5, 78 000 Banjaluka, Bosnia and Herzegovina: Oxford University Press; 2013 Jan 1;56(1):70–86. \\ 
+  243 & A104 & 2013 & Hage J, Vermeer B, Verburg G. Research Paper: Plagiarism Detection for Haskell with Holmes. Proceedings of the 3rd Computer Science Education Research Conference on Computer Science Education Research. Open Univ., Heerlen, The Netherlands, The Netherlands: Open Universiteit, Heerlen; 2013. p. 2:19--2:30. \\ 
+  244 & A105 & 2013 & Koss I, Ford R. Authorship Is Continuous: Managing Code Plagiarism. Secur Privacy, IEEE. 2013;11(2):72–4. \\ 
+  245 & A106 & 2013 & Le T, Carbone A, Sheard J, Schuhmacher M, De Raath M, Johnson C. Educating computer programming students about plagiarism through use of a code similarity detection tool. 1st International Conference on Learning and Teaching in Computing and Engineering, LaTiCE 2013. Office of the Pro-vice Chancellor Learning and Teaching, Monash University, Melbourne, Australia; 2013. p. 98–105. \\ 
+  246 & A107 & 2013 & Lin T-T, Tung S-H. Plagiarism detection in programming exercises using a Markov model approach. ICIC Express Lett. Department of Information Management, National Yunlin University of Science and Technology, No. 123, University Road, Section 3, Douliou, Yunlin 64002, Taiwan; 2013;7(9):2563–8. \\ 
+  247 & A108 & 2013 & Oprisa C, Cabau G, Colesa A, Oprişa C, Cabau G, Coleşa A. From plagiarism to malware detection. Symbolic and Numeric Algorithms for Scientific Computing (SYNASC), 2013 15th International Symposium on. Bitdefender, Romania: IEEE Computer Society; 2013. p. 227–34. \\ 
+  248 & A109 & 2013 & Smeureanu I, Iancu B. SOURCE CODE PLAGIARISM DETECTION METHOD USING ONTOLOGIES. In: Boja, C and Batagan, L and Doinea, M and Ciurea, C and Pocatilu, P and Ion, A and Magos, R and Cotfas, L and Velicanu, A and Amancei, C and Andreica, M and Zamfiroiu, A, editor. INTERNATIONAL CONFERENCE ON INFORMATICS IN ECONOMY. 6, PIATA ROMA, 1ST DISTRICT, POSTAL OFFICE 22, BUCHAREST, 010374, ROMANIA: BUCHAREST UNIV ECONOMIC STUDIES-ASE; 2013. p. 594–7. \\ 
+  249 & A110 & 2013 & Chunhui W, Zhiguo L, Dongsheng L. Preventing and detecting plagiarism in programming course. Int J Secur its Appl. 2013;7(5):269–78. \\ 
+  250 & A111 & 2013 & Wojdyga A. Towards intellectual property theft prevention: Economic significance of automatic software plagiarism verification. Actual Probl Econ. National Academy of Management; 2013;142(4):300–6. \\ 
+  251 & A112 & 2013 & Zakova K, Pistej J, Bistak P. Online tool for student’s source code plagiarism detection. 2013 IEEE 11th International Conference on Emerging eLearning Technologies and Applications (ICETA). Faculty of Electrical Engineering and Information Technology, Slovak University of Technology, Bratislava, Slovakia: IEEE; 2013. p. 415–9. \\ 
+  252 & A113 & 2013 & Li ping Zhang, Liu Dongsheng. AST-based multi-language plagiarism detection method. In: Babu, MSP and Wenzheng L, editor. 2013 IEEE 4th International Conference on Software Engineering and Service Science. Inner Mongolia Normal University, College of Computer and Information Engineering, Inner-Mongolia, Hohhot, China: IEEE; 2013. p. 738–42. \\ 
+  253 & A114 & 2014 & Alsmadi I, AlHami I, Kazakzeh S. Issues related to the detection of source code plagiarism in students assignments. Int J Softw Eng its Appl. Information systems Department, Prince Sultan University, Saudi Arabia: Science and Engineering Research Support Society; 2014;8(4):23–34. \\ 
+  254 & A115 & 2014 & Baby J, Kannan T, Vinod P, Gopal V. Distance indices for the detection of similarity in C programs. 3rd IEEE International Conference on Computation of Power, Energy, Information and Communication, ICCPEIC 2014. Department of Computer Science and Engineering, SCMS School of Engineering and TechnologyErnakulam, Kerala, India: Institute of Electrical and Electronics Engineers Inc.; 2014. p. 462–7. \\ 
+  255 & A116 & 2014 & Bartoszuk M, Gagolewski M. A Fuzzy R Code Similarity Detection Algorithm. 15th International Conference on Information Processing and Management of Uncertainty in Knowledge-based Systems, IPMU 2014. Systems Research Institute, Polish Academy of Sciences, ul. Newelska 6, 01-447 Warsaw, Poland: Springer Verlag; 2014. p. 21–30. \\ 
+  256 & A117 & 2014 & Kikuchi H, Goto T, Wakatsuki M, Nishino T. A source code plagiarism detecting method using alignment with abstract syntax tree elements. In: S. T, J.Y. J, editors. 15th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking, and Parallel/Distributed Computing, SNPD 2014. Graduate School of Informatics and Engineering, University of Electro-Communications, 1-5-1 ChofugaokaChofu, Tokyo, Japan: Institute of Electrical and Electronics Engineers Inc.; 2014. \\ 
+  257 & A118 & 2014 & Lazar F-M, Banias O. Clone detection algorithm based on the abstract syntax tree approach. 9th IEEE International Symposium on Applied Computational Intelligence and Informatics, SACI 2014. Politehnica University of Timisoara, Timisoara, Romania: IEEE Computer Society; 2014. p. 73–8. \\ 
+  258 & A119 & 2014 & Martins VT, Fonte D, Henriques PR, Da Cruz D. Plagiarism detection: A tool survey and comparison. 3rd Symposium on Languages, Applications and Technologies, SLATE 2014. Centro de Ciencias e Tecnologias da Computaçao (CCTC), Departamento de Informática, Universidade Do Minho, Gualtar, Portugal: Schloss Dagstuhl- Leibniz-Zentrum fur Informatik GmbH, Dagstuhl Publishing; 2014. p. 143–58. \\ 
+  259 & A120 & 2014 & Ohno A, Yamasaki T, Tokiwa K-I. An online system for scoring and plagiarism detection in university programing class. In: Mohd Ayub A.F. Kashihara A. MTLC-COHKSC, editor. Work-In-Progress Poster - Proceedings of the 22nd International Conference on Computers in Education, ICCE 2014. Asia-Pacific Society for Computers in Education; 2014. p. 37–9. \\ 
+  260 & A121 & 2014 & Pohuba D, Dulik T, Janku P. Automatic evaluation of correctness and originality of source codes. 10th European Workshop on Microelectronics Education, EWME 2014. Department of Informatics and Artificial Intelligence, Tomas Bata University in Zlin, Zlin, Czech Republic: IEEE Computer Society; 2014. p. 49–52. \\ 
+  261 & A122 & 2014 & Rahal I., Wielga C. Source Code Plagiarism Detection Using Biological String Similarity Algorithms. J Inf Knowl Manag. World Scientific Publishing Co. Pte Ltd; 2014;13(3). \\ 
+  262 & A123 & 2014 & Shan SQ., Tian ZG., Guo FJ., Ren JX. Similarity Detection’s application using Chi-square test in the property of counting method. P. Y, editor. Appl Mech Mater. Trans Tech Publications Ltd; 2014;667:32–5. \\ 
+  263 & A124 & 2014 & Simon, Cook B, Sheard J, Carbone A, Johnson C. Academic integrity perceptions regarding computing assessments and essays. Proceedings of the tenth annual conference on International computing education research - ICER ’14. New York, New York, USA: ACM Press; 2014. p. 107–14. \\ 
+  264 & A125 & 2014 & Tselikas ND., Samarakou M., Karolidis D., Prentakis P., Athineos S. Automatic plagiarism detection in programming laboratory courses. In: Nunes M.B. Rodrigues L. PPIP, editor. Proceedings of the 7th IADIS International Conference Information Systems 2014, IS 2014. IADIS; 2014. p. 232–8. \\ 
+  265 & A126 & 2014 & Zhang D, Joy M, Cosma G, Boyatt R, Sinclair J, Yau J. Source-code plagiarism in universities: a comparative study of student perspectives in China and the UK. Assess Eval High Educ. College of Information and Management Science, Henan Agricultural University, Zhengzhou, China: Routledge; 2014 Aug 18;39(6):743–58. \\ 
+  266 & A127 & 2014 & Zhu HM, Zhang L, Sun W, Sun YX. A token oriented measurement method of source code similarity. W. G, editor. 3rd Asian Pacific Conference on Mechanical Components and Control Engineering, ICMCCE 2014. Department of Computer, Shandong Agricultural UniversityTai’an, China: Trans Tech Publications Ltd; 2014. p. 899–902. \\ 
+  267 & A128 & 2015 & Acampora G, Cosma G. A Fuzzy-based approach to programming language independent source-code plagiarism detection. 2015 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE). IEEE; 2015. p. 1–8. \\ 
+  268 & A129 & 2015 & Anjali V., Swapna TR. R, Jayaraman B. Plagiarism Detection for Java Programs without Source Codes. Elayidom M.S. Samuel P. JRKRSPB, editor. Procedia Comput Sci. Elsevier; 2015;46:749–58. \\ 
+  269 & A130 & 2015 & Bejarano AM, García LE, Zurek EE. Detection of source code similitude in academic environments. Comput Appl Eng Educ. Universidad del Norte, Ingeniería de Sistemas, Km. 5 Antigua vía a Puerto ColombiaBarranquilla, Atlántico, Colombia: John Wiley and Sons Inc.; 2015 Jan;23(1):13–22. \\ 
+  270 & A131 & 2015 & Flores E, Barrón-Cedeno A, Moreno L, Rosso P. Uncovering source code reuse in large-scale academic environments. Comput Appl Eng Educ. Universitat Politecnica de ValenciaValenciaSpain: John Wiley and Sons Inc.; 2015 May;23(3):383–90. \\ 
+  271 & A132 & 2015 & Flores E., Rosso P., Moreno L., Villatoro-Tello E. On the detection of source code re-use. In: Mehta P. Mitra M. AMMP, editor. ACM International Conference Proceeding Series. Association for Computing Machinery; 2014. p. 21–30. \\ 
+  272 & A133 & 2015 & Ganguly D, Jones GJF. DCU@FIRE-2014: An information retrieval approach for source code plagiarism detection. In: Mehta P. Mitra M. AMMP, editor. ACM International Conference Proceeding Series. Association for Computing Machinery; 2014. p. 39–42. \\ 
+  273 & A134 & 2015 & Kaya M, Özel SA. Integrating an online compiler and a plagiarism detection tool into the Moodle distance education system for easy assessment of programming assignments. Comput Appl Eng Educ. Department of Computer Engineering, Faculty of Engineering and Natural SciencesAdana Science and Technology UniversityAdana01180Turkey: John Wiley and Sons Inc.; 2015 May;23(3):363–73. \\ 
+  274 & A135 & 2015 & Liu X, Xu C, Ouyang B. Plagiarism Detection Algorithm for Source Code in Computer Science Education. Int J Distance Educ Technol. IGI Global; 2015 Oct;13(4):29–39. \\ 
+  275 & A136 & 2015 & Martins VT, Henriques PR, da Cruz D. An AST-based tool, spector, for plagiarism detection: The approach, functionality, and implementation. Sierra-Rodriguez J.-L. Leal J.P. SA, editor. Commun Comput Inf Sci. Springer Verlag; 2015;563:153–9. \\ 
+  276 & A137 & 2015 & Ohmann T, Rahal I. Efficient clustering-based source code plagiarism detection using PIY. Knowl Inf Syst. School of Computer Science, University of Massachusetts, Amherst, MA 01060, United States: SPRINGER LONDON LTD; 2015 May 22;43(2):445–72. \\ 
+  277 & A138 & 2015 & Qiu D, Sun J, Li H. Improving Similarity Measure for Java Programs Based on Optimal Matching of Control Flow Graphs. Int J Softw Eng Knowl Eng. World Scientific Publishing Co. Pte Ltd; 2015;25(7):1171–97. \\ 
+  278 & A139 & 2015 & Ramírez-De-La-Cruz A, Ramírez-De-La-Rosa G, Sánchez-Sánchez C, Jiménez-Salazar H. On the importance of lexicon, structure and style for identifying source code plagiarism. In: Mehta P. Mitra M. AMMP, editor. ACM International Conference Proceeding Series. Association for Computing Machinery; 2014. p. 31–8. \\ 
+  279 & A140 & 2015 & Shah D, Jethani H, Joshi H. (CLSCR) cross language source code reuse detection using intermediate language. In: Majumder P. Mehta P. AMMM, editor. CEUR Workshop Proceedings. CEUR-WS; 2015. p. 15–8. \\ 
+  280 & A141 & 2015 & Sharma S, Sharma CS, Tyagi V. Plagiarism detection tool \#x201C;Parikshak \#x201D; Communication, Information Computing Technology (ICCICT), 2015 International Conference on. 2015. p. 1–7. \\ 
+  281 & A142 & 2015 & Song H-J, Park S-B, Park SY. Computation of Program Source Code Similarity by Composition of Parse Tree and Call Graph. Math Probl Eng. Hindawi Publishing Corporation; 2015;2015:1–12. \\ 
+  282 & A143 & 2016 & Domin C, Pohl H, Krause M. Improving Plagiarism Detection in Coding Assignments by Dynamic Removal of Common Ground. Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems. New York, NY, USA: ACM; 2016. p. 1173–9. \\ 
+  283 & A144 & 2016 & Heron MJ, Belford P. Musings on Misconduct: A Practitioner Reflection on the Ethical Investigation of Plagiarism Within Programming Modules. SIGCAS Comput Soc. New York, NY, USA: ACM; 2016;45(3):438–44. \\ 
+  284 & A145 & 2016 & Karuna P, Preeti M. Global plagiarism management through Intelligence of Hawk Eye. Indian J Sci Technol. Indian Society for Education and Environment; 2016;9(15). \\ 
+  285 & A146 & 2016 & Kermek D, Novak M. Process Model Improvement for Source Code Plagiarism Detection in Student Programming Assignments. INFORMATICS Educ. AKADEMIJOS 4, VILNIUS, 08663, LITHUANIA: VILNIUS UNIV, INST MATHEMATICS \& INFORMATICS; 2016;15(1):103–26. \\ 
+  286 & A147 & 2016 & Misic M, Siustran Z, Protic J. A comparison of software tools for plagiarism detection in programming assignments. Int J Eng Educ. Tempus Publications; 2016;32(2):738–48. \\ 
+  287 & A148 & 2016 & Novak M. Review of source-code plagiarism detection in academia. 2016 39th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO). 2016. p. 796–801. \\ 
+  288 & A149 & 2016 & Shah N, Modha S, Dave D. Differential weight based hybrid approach to detect software plagiarism. Satapathy S.C. Modi N. PNJA, editor. Adv Intell Syst Comput. Springer Verlag; 2016;409:645–53. \\ 
+  289 & A150 & 2016 & Sheahen D, Joyner D. TAPS: A MOSS Extension for Detecting Software Plagiarism at Scale. Proceedings of the Third (2016) ACM Conference on Learning @ Scale. New York, NY, USA: ACM; 2016. p. 285–8. \\ 
+  \hline
+\end{longtable}
+\begin{kframe}\begin{alltt}
+\hlcom{#df <- data.frame(name = c("A","B"), right = c(1.4, 34.6), left = c(1.4, 34.6), text = c("txt1","txt2"))}
+\hlcom{#print(xtable(df, align = c("l", "|c", "|R\{3cm\}", "|L\{3cm\}", "| p\{3cm\}|")), floating = FALSE, include.rownames = FALSE)}
+\hlcom{#}
+\hlkwd{kable}\hlstd{(apya}\hlopt{$}\hlkwd{articlesInDatabaseCombination}\hlstd{(mydata.filtered,}\hlkwd{c}\hlstd{(}\hlstr{"Scopus"}\hlstd{,}\hlstr{"WOS"}\hlstd{,}\hlstr{"IEEE"}\hlstd{)))}
+\end{alltt}
+\end{kframe}
+\begin{tabular}{l|l|r|r|r|r}
+\hline
+AnalysisID & Year & ScolarCitationSum & Scopus & WOS & IEEE\\
+\hline
+A23 & 2004 & 259 & 1 & 1 & 1\\
+\hline
+A18 & 1999 & 198 & 1 & 1 & 1\\
+\hline
+A40 & 2008 & 62 & 1 & 1 & 1\\
+\hline
+A87 & 2012 & 60 & 1 & 1 & 1\\
+\hline
+A46 & 2008 & 46 & 1 & 1 & 1\\
+\hline
+A86 & 2012 & 38 & 1 & 1 & 1\\
+\hline
+A47 & 2009 & 21 & 1 & 1 & 1\\
+\hline
+A50 & 2009 & 18 & 1 & 1 & 1\\
+\hline
+A76 & 2011 & 15 & 1 & 1 & 1\\
+\hline
+A38 & 2007 & 13 & 1 & 1 & 1\\
+\hline
+A52 & 2009 & 8 & 1 & 1 & 1\\
+\hline
+A94 & 2012 & 8 & 1 & 1 & 1\\
+\hline
+A85 & 2012 & 7 & 1 & 1 & 1\\
+\hline
+A106 & 2013 & 7 & 1 & 1 & 1\\
+\hline
+A108 & 2013 & 6 & 1 & 1 & 1\\
+\hline
+A44 & 2008 & 5 & 1 & 1 & 1\\
+\hline
+A71 & 2010 & 5 & 1 & 1 & 1\\
+\hline
+A92 & 2012 & 5 & 1 & 1 & 1\\
+\hline
+A49 & 2009 & 4 & 1 & 1 & 1\\
+\hline
+A101 & 2013 & 4 & 1 & 1 & 1\\
+\hline
+A112 & 2013 & 4 & 1 & 1 & 1\\
+\hline
+A91 & 2012 & 3 & 1 & 1 & 1\\
+\hline
+A118 & 2014 & 3 & 1 & 1 & 1\\
+\hline
+A113 & 2013 & 2 & 1 & 1 & 1\\
+\hline
+A117 & 2014 & 2 & 1 & 1 & 1\\
+\hline
+A83 & 2012 & 1 & 1 & 1 & 1\\
+\hline
+A121 & 2014 & 0 & 1 & 1 & 1\\
+\hline
+A128 & 2015 & 0 & 1 & 1 & 1\\
+\hline
+\end{tabular}
+
+
+
+\end{document}

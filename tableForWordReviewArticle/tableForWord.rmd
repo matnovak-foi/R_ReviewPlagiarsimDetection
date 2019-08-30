@@ -1,0 +1,144 @@
+---
+title: "Tables"
+author: "Matija"
+date: '19 srpnja 2017 '
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r message=FALSE,echo=FALSE,warning=FALSE,results='hide'}
+setwd("..")
+source("mainHeader.R",encoding = "UTF-8")
+library(knitr)
+```
+#Review Articles
+
+```{r reviewArticlesTable, results='asis', echo=FALSE}
+kable(apya$createTableOfAllAnalysisArticles(mydata.filtered))
+```
+
+##Review Articles Missing Added manualy
+
+```{r reviewArticlesMissingTable, results='asis', echo=FALSE}
+kable(apya$createTableOfAllAnalysisArticles(mydata.filteredOnlyManualForReview))
+```
+
+#Top  tools usage
+
+```{r topToolsUsage, results='asis', echo=FALSE}
+kable(pdta$getTableMinAndMaxYearUsingATool(mydata.filtered,topTools))
+kable(pdta$listArticlesThatUseTools(mydata.filtered,c("jPlag","MOSS","SIMfromGrune","Plaggie","SherlockWarwick")))
+```
+
+# Algorithm analysis
+##1 standardAlgorithmCategorization
+
+```{r standardAlgorithmCategorization, results='asis', echo=FALSE}
+prepareTableHeader <- function(table){
+    dfm <- DataFrameMaipulator$new()
+    table <- dfm$changeColumnNameInDataFrame(table,"Algorithm_or_Algorithm_Type","Algorithm Type")
+    table <- dfm$changeColumnNameInDataFrame(table,"All","Number of articles")
+    table <- dfm$changeColumnNameInDataFrame(table,"firstYear","First year")
+    table <- dfm$changeColumnNameInDataFrame(table,"lastYear","Last year")
+}
+printTable <- prepareTableHeader(aasma$getTableMinAndMaxYearUsingAlgorithm(mydata.filtered.devTool,standardAlgorithmCategorization))
+kable(printTable)
+```
+
+##2 newAlgorithmCategorization
+
+```{r newAlgorithmCategorization, results='asis', echo=FALSE}
+printTable <- prepareTableHeader(aasma$getTableMinAndMaxYearUsingAlgorithm(mydata.filtered.devTool,newAlgorithmCategorization))
+kable(printTable)
+```
+
+##3 commonAlgorithmsUsed and similairtyMeasures
+
+```{r commonAlgorithmsUsed, results='asis', echo=FALSE}
+printTable <- prepareTableHeader(aasma$getTableMinAndMaxYearUsingAlgorithm(mydata.filtered.devTool,c(commonAlgorithmsUsed,similarityMeasures)))
+kable(printTable)
+```
+
+##listarticles for algorithm
+
+```{r listarticlesforalgorithm, results='asis', echo=FALSE}
+kable(aasma$listArticlesThatUseAlgorithms(mydata.filtered.devTool,allAlgorithms))
+```
+
+#articles that do some comparison
+
+```{r comparisonArticles, results='asis', echo=FALSE}
+kable(dfmHelp$createDataFrameOfPrintColumnValuesForColumns(mydata.filtered.compTools,c("ToolComparison","OnlyToolComparisons"),"AnalysisID"))
+```
+
+#comparison metircs analysis
+
+```{r comparisonMetrics, results='asis', echo=FALSE}
+kable(cma$numberOfArticlesWithMinAndMaxYearComapringAndDevelopig())
+```
+
+##articles that do some comparison by metric
+
+```{r comparisonArticlesByMetric, results='asis', echo=FALSE}
+kable(dfmHelp$createDataFrameOfPrintColumnValuesForColumns(mydata.filtered.compTools,topMetrics,"AnalysisID"))
+```
+
+##combinations of precision and recall
+
+```{r precisionRecallCombinations, results='asis', echo=FALSE}
+kable(cma$numberOfArticlesUsingPrecisionAndRecallCombinations(mydata.filtered.compTools))
+```
+
+#Dataset analysis
+
+##numberOfArticlesUsingDatasetsTypeByDifferentArticlesIncluded
+
+```{r datasetUsageByDifferentArticlesIncluded, results='asis', echo=FALSE}
+kable(adsa$numberOfArticlesUsingDatasetsTypeByDifferentArticlesIncluded(mydata.filtered,usedDatasetTypes,c("ToolDeveloped","ToolUsedOrDeveloped","ToolCompariosonOrOnlyComparison")))
+```
+
+##comparisonArticlesByDatasetType
+
+```{r comparisonArticlesByDatasetType, results='asis', echo=FALSE}
+kable(dfmHelp$createDataFrameOfPrintColumnValuesForColumns(mydata.filtered.compTools,usedDatasetTypes,"AnalysisID"))
+```
+
+##programmingLanguages
+
+```{r programmingLanguages, results='asis', echo=FALSE}
+kable(dfmHelp$createDataFrameOfPrintColumnValuesForColumns(mydata.filtered.ducTool,programmingLanguages,"AnalysisID"))
+```
+
+##programmingLanguagesPerYear
+
+```{r programmingLanguagesPerYear, results='asis', echo=FALSE}
+kable(adsa$numberOfArticlesUsingWhichProgrammingLanguagePerYear(mydata.filtered.ducTool,top10ProgrammingLanguages))
+```
+
+##top cited articles
+
+```{r topCitedArticles, results='asis', echo=FALSE}
+kable(apya$getArticlesSortedAndFilteredByCitation(mydata.filtered,50))
+```
+
+##apya$articlesInDatabaseCombination(mydata.filtered,c("Scopus","WOS","IEEE"))
+
+```{r articlesDatabaseCombination1, results='asis', echo=FALSE}
+kable(apya$articlesInDatabaseCombination(mydata.filtered,c("Scopus","WOS","IEEE")))
+```
+
+##apya$articlesInDatabaseCombination(mydata.filtered,c("Scopus","WOS","ACM"))
+
+```{r articlesDatabaseCombination2, results='asis', echo=FALSE}
+kable(apya$articlesInDatabaseCombination(mydata.filtered,c("Scopus","WOS","ACM")))
+
+```
+
+##apya$articlesInDatabaseCombination(mydata.filtered,c("Scopus","WOS","ACM","IEEE")
+
+```{r articlesDatabaseCombination3, results='asis', echo=FALSE}
+kable(apya$articlesInDatabaseCombination(mydata.filtered,c("Scopus","WOS","ACM","IEEE")))
+```

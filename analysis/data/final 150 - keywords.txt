@@ -1,0 +1,1347 @@
+c programming language
+codes symbols
+computer programming languages
+document representation
+document representation
+i
+lexical
+plagiarism dete
+plagiarism detection
+source code plagiarism
+structural and stylistic features
+codes symbols
+computer programming languages
+field search
+indexing and retrieval
+information
+information retrie
+source code plagiarism detection
+computer science education
+educational courses
+sec
+plagiarism detection
+process model
+source-code
+china
+uk
+plagiarism
+source-code
+c programming language
+codes symbols
+comput
+computational linguistics
+computers
+detecting plagiarism
+detectors
+educational institutions
+graduate course
+java
+lines of c
+algorithms
+average values
+computer programming languages
+computer software
+control structure
+data structures
+intellectual property
+plagiarism
+plagiarism detection
+similarity detection
+software
+source code
+source code modification
+source code plagiarisms
+source code similarities
+source codes
+statistically significant difference
+structural modifications
+test sets
+tool support
+algorithms
+plagiarism
+similarity detection
+soft
+computing disciplines
+population statistics
+source codes
+students
+surveys
+teaching
+computer science education
+data analysis
+demograph
+plagiarism
+source code
+student survey
+university education
+ast
+abstract syntax trees
+c language
+clu
+cluster
+intellectual property
+java
+plagiarism detection
+programming course
+sequence alignment
+sequence alignments
+sequence matching algorithms
+software engineering
+source codes
+vector spaces
+computational linguistics
+computer
+clustering
+java
+plagiarism detection
+codes symbols
+information retrieval
+inspection equipment
+intellectual property
+investigation process
+latent semantic analysis
+plagiarism detection
+relative importance
+semantics
+similarity detection
+source-code similarity detection
+file organisation
+information retrieval
+latent semantic analysis
+security o
+similarity investigation tool
+java
+experimental evaluation
+source code plagiarism
+cluster-based
+computer programming languages
+engineering research
+innovation
+intellectual property
+mathematical programming
+open source system
+parameter-tuning
+plagiarism detection
+source code plagiarisms
+students
+teaching
+user interfaces
+work-flows
+corpus studies
+plagiarism assessment
+plagiarism detection
+programming
+similarity
+user interface
+clustering
+clustering methods
+detecting methods
+intellectual property
+internet
+line positions
+plagiarism detection
+source codes
+visualization
+xml
+algorithms
+codes symbols
+computation
+computer programs
+computer programming languages
+cyclomatic complexity
+d
+program plagiarism detecti
+trees mathematics
+k k -grams
+data clustering
+numa
+pa
+parallel computing
+plagiarism detection
+k-grams
+academic environment
+codes symbols
+computer programming
+computer programming languages
+detecting plagiarism
+e
+education
+homew
+homework assignments
+intellectual property
+introductory computer programming
+plagiarism
+programming codes
+source code
+source codes
+adaptive systems
+computer crime
+fuzzy neural nets
+coding errors
+computer systems programming
+error detection
+ind
+local alignment
+moss systems
+plagiarism detecti
+agglomeration
+algorithms
+cloning
+code cloning
+code similarities
+codes symbols
+estimation algorithm
+fuzzy proximity
+knowledge based systems
+open source package
+r
+software environments
+statistical computations
+aggregation
+antiplagiarism detection
+code cloning
+fuzzy proximity relations
+co
+computer science education
+programming
+teaching
+computer engineering
+distance education
+distance education systems
+education
+gcc
+inspection equipmen
+inspection equipment
+intellectual property
+moodle
+plagiarism detection
+program compilers
+programming assignments
+social networking online
+source code plagiarisms
+moodle
+automatic programming
+computer science education
+educational technology
+genetic algorithms
+authoring systems
+authorship
+automatic programming
+computer programming assignment
+computer science education
+copy-catching tool
+counterfeit
+educational technology
+genetic algorithms
+gramm
+grammar evolution
+grammars
+plagiarism detection tool
+programming language
+programming languages
+software tool
+student plagiarism
+assessment process
+disciplinary procedures
+effective learning
+engineering education
+indirect measure
+plagiarism detection
+school buildings
+social networks
+source codes
+student learning
+students
+teaching
+technical presentations
+automatic plagiarism detection
+classro
+computer science education
+programming assessment
+programming plagiarism
+social network
+social sciences
+application programs
+intellectual property
+on-line tools
+program code
+source code plagiarisms
+computer crime
+computer science education
+software
+software plagiarism
+call trees
+dynamic analysis
+key variables
+automatic evaluation
+complete system
+computer programming languages
+education
+intellectual property
+microelectronics
+moodle
+source codes
+user interfaces
+automatic checking
+plagiarism
+source code
+computer programming
+data exchange
+internet
+plagiarism
+programming assignments
+programming course
+source code
+source code plagiarisms
+source codes
+students
+teaching
+teaching programming
+comparison
+computer software
+detection
+error detection
+grading
+intellectual property
+plagiarism
+plagiarism detection
+problem domain
+programming course
+slate
+software
+software plagiarisms
+software testing
+state of the art
+structured writing
+surveys
+teaching
+test
+testing
+attribute-based method
+caplag
+dna sequencing
+java
+java programming assignment
+layout
+measurement
+plagiarism
+programming assignment
+programming profession
+similarity detection
+structure-based method
+web based service
+web services
+academic integrity
+attribute based system
+computing assignment plagiarism
+educational administrative data processing
+hidden structural similarity detection
+object-oriented programming
+pattern classification
+program compilers
+source code
+source coding
+statistical analysis
+structure based system
+student cheating prevention
+academic integrity
+computing education
+non-text-based assessment
+academic integrity
+computer aided instruction
+computer programming
+detection performance
+educational objectives
+engineering education
+inspection equipment
+intellectual property
+learning environments
+plagiarism detection
+societies and institutions
+source codes
+students
+students perspectives
+tools
+virtual learning environments
+academic integrity
+computer source code
+plagiarism detection tool
+author identification
+code developers
+computer aided instruction
+computer programming
+intellectual property
+plagiarism detection
+programming codes
+second phase
+software forensics
+source codes
+third parties
+user profile
+author identification
+software forensics
+source code
+assessment tasks
+automated tools
+computer programming languages
+computer science
+computing course
+intellectual property
+multiple languages
+plagiarism detection
+program code
+program compilers
+program source code similarity
+program source codes
+source codes
+antlr
+ast
+data processing
+lcs
+plagiarism detection
+source code plagiarisms
+source codes
+subtrees
+teaching
+algorithms
+assessment accuracy
+clospan algorithm
+clospan mining algorithm
+computer science
+data mining
+e-learning
+intelle
+moss plagiarism detection tool
+code fragments
+code plagiarism
+computer science education
+data mining
+data mining algorithm
+detection efficiency
+program similarities
+programming
+programming class
+student program plagiarism detection approach
+clustering
+clustering algorithms
+computer crime
+entropy
+information retrieval systems
+intellectual property
+malware
+n-grams
+normalized compression distance
+plagiarism
+similarity metric
+similarity metrics
+change variab
+invasive software
+pattern clustering
+alignment
+c programming language
+cloning
+codes symbols
+computer programming
+distance
+endogenous
+java programming language
+plagiarism detection
+similarity measure
+source code plagiarism
+source code plagiarisms
+source code segmentation
+source codes
+information retrieval
+intellectual property
+intelligent information retrieval
+lsa
+latent semantic analysis
+mathematical algorithms
+parameter tuning
+parameter-tuning
+parameterization
+parameterized
+plagiarism detection
+preprocessing techniques
+retrieval performance
+semantic information
+semantics
+similarity detection
+similarity threshold
+source-code similarity detection
+term frequency
+weighting approaches
+weighting scheme
+automation
+forestry
+individual assignments
+information retrieval
+intellectual property
+management systems
+mathematical models
+model checking
+online assignments
+parse trees
+plagiarism detection
+program code
+program testing
+programing languages
+programming assignments
+programming course
+short periods
+source codes
+teaching
+test case
+tree-based
+automatic marking
+plagiarism detection
+programming assignments
+c program
+xml text
+plagiarism detection
+similarity
+algorithms
+analysis
+code transformation
+cosine transforms
+engineering exhibitions
+information technology
+intermediate languages
+language constructs
+microelectronics
+plagiarism detection
+plagiarism detection algorithm
+positive effects
+programming codes
+similarity
+similarity analysis
+source code
+source codes
+string similarity
+complex programs
+computer programming languages
+intellectual property
+markov model
+markov processes
+plagiarism detection
+program structures
+programming exercise
+programming learning
+source code plagiarism detection
+source code plagiarisms
+time complexity
+owl
+ontology
+plagiarism
+sparql
+algorithms
+comparative approach
+computer software
+control flow graphs
+data flow analysis
+embedded systems
+error-
+automatic programming
+computational linguistics
+computer-aided education
+intellectual property
+labo
+laboratory course
+abstract syntax trees
+academic environment
+comp
+computational linguistics
+computer software
+erro
+intellectual property
+c
+code similarities
+codes symbols
+computer programming languages
+jplag
+moss
+plagiarism detect
+students
+c programming language
+codes symbols
+computer pr
+computer programming
+evaluation framework
+plagiarism detection
+soco
+clscr
+codes symbols
+comput
+computational linguistics
+computer science students
+cross languages
+translation languages
+computer science education
+massive open online course
+plagiarism
+academic misconduct
+attribution
+education
+ethics
+morality
+plagiarism
+programming
+teaching
+academic integrity
+cheating
+moss
+software plagiarism
+authoring tools and methods
+codes symbols
+computer aided instruction
+computer programming languages
+interactive learning environment
+interactive learning environments
+object oriented programming
+plagiarism detection
+programming and programming languages
+real time systems
+source code reuse
+source codes
+abstract syntax trees
+algorithms
+artificial intelligence
+c programming language
+clone detection
+clone detection algorithms
+cloning
+information science
+program code
+programming technique
+signal detection
+source codes
+state of the art
+student assignments
+academic dishonesty
+artificial intelligence
+average length
+bandwidth consumption
+computer science
+computer software
+detecting plagiarism
+detection time
+detectors
+functional test
+input parameter
+java programming language
+large class
+non-functional tests
+one-form
+pedagogical tools
+plagiarism detection
+programming class
+programming language
+source code plagiarism
+source codes
+unit tests
+user friendliness
+web application
+web interface
+world wide web
+byte codes
+codes symbols
+computer programming languages
+computer software
+information technology
+java class files
+java programming language
+local alignments
+plagiarism detections
+source codes
+target codes
+test datums
+token sequences
+agent systems
+algebraic expression
+assignment analysis
+computer software
+dynamic controls
+e-learning
+fingerprinting algorithm
+intelligent agent
+java program
+java programming language
+management
+on-line detection
+online assignments
+online course management systems
+online instructions
+online systems
+plagiarism detection
+program code
+program plagiarism
+program similarity
+program structures
+programming codes
+programming structures
+quality of learning
+research
+similarity measuring
+source codes
+structural analysis
+textual analysis
+user interfaces
+variable analysis
+assignment solutions
+e-learning
+intellectual property
+learning management system
+plagiarism
+plagiarism detection
+programming assignments
+source code plagiarisms
+source codes
+students
+system use
+teaching assistants
+validation
+kolmogorov complexity
+program plagiarism detection
+shared information
+computational complexity
+data compression
+data int
+binary files
+c language
+cost performance
+detection tools
+file compression
+information engineerings
+information technology
+morphological analysis
+network environments
+online reports
+preprocess
+prototype tools
+redundant informations
+similarity calculation
+similarity detection
+source codes
+support systems
+teaching
+codes symbols
+computer programming languages
+e-learning
+edit distance
+intellectual property
+longest common subsequences
+on-line examinations
+similarity
+similarity calculation
+similarity threshold
+social networking online
+source code
+source code similarities
+source codes
+teaching
+token oriented edit distance
+token oriented longest common subsequence
+algorithms
+codes symbols
+coding standardize
+college education
+computer s
+computer programming
+distance education
+e-learning
+education
+intellectual proper
+on-line education
+plagiarism detection
+programm
+automatic
+detection
+plagiarism
+plagiarist
+programming
+statistics
+design patterns
+detecting plagiarism
+intellectual property
+java programming language
+matching techniques
+plagiarism detection
+plagiarism detection
+preprocessing
+preprocessing approaches
+primitive types
+software engineering
+software program
+source code plagiarism detection
+source code plagiarisms
+source codes
+algorithms
+block codes
+computer program listings
+data structures
+evaluati
+program parsing
+program plagiarism
+syntax-trees
+algorithms
+assembly language
+communication
+electronic commerce
+higher education
+s
+similarity
+world wide we
+academic course
+academic system
+algorithms
+analysis techniq
+intellectual property
+students
+computer based plagiarism
+computer programming
+computer programming languages
+computer software
+plague systems
+progra
+backend system
+basic functions
+black-box testing
+e-learning
+management
+rating
+students
+teaching
+attribute of counting
+chi-square tests
+higher e
+software testing
+statistical tests
+teaching
+testing
+ac systems
+distance matrixes
+do-mains
+graph re
+signal detection
+unmanned aerial vehicles uav
+visualization
+automatic plagiarism detection
+computer programming
+computer software--computer aided analysis
+plagiarism detect
+algorithms
+automated learning environment
+codes symbols
+computer aided instru
+computer code
+de
+programming theory
+anti-plagiarism editor
+assignment design
+automat
+computer programming
+computer software
+curricul
+intellectual property
+computer programming
+computer software--evaluation
+program similarity
+computer programming
+computer programming languages - pascal
+plagiarism
+satistical analysis
+student pascal p
+code analysis
+computer science
+data visualization
+dynamic graph
+engineering
+evaluating software
+information management
+atms
+assessment tasks
+automatic teller machines
+computer programming
+correlation coeffi cient r
+java programming language
+assessment
+free texts
+intellectual property
+mathematical programming
+plagiarism
+programming as
+students
+intellectual property
+mathematical programming
+plagiarism
+programming assignments
+student attit
+students
+algorithms
+codes symbols
+computer programming
+education
+plagiarism
+running-karp-rabin greedy-string-tilin
+automated marking
+automation
+c programming language
+codes symbo
+fuzzy sets
+plagiarism
+tree structure
+plagiarism
+evaluating of assignment
+plagiarized programming code
+plagiarized text
+xml
+backpropagation
+computer science education
+edu
+c language
+xml
+xml plagi
+computer crime
+computer aided instruction
+continuing professional
+computer science education
+educational institution
+copyright
+educational courses
+engineering educatio
+c language
+c plagi
+object-oriented programming
+computer aided instruction
+computer science educat
+computer science education
+educational administrat
+c language
+c
+computer science education
+computer science education
+educational courses
+pro
+computer science education
+copy protection
+educati
+computer crime
+program diagnostics
+programming lan
+collaborative work
+computer science
+counting circu
+computer science education
+copyright
+further educa
+computer aided instruction
+computer science educat
+haskell
+empirical validation
+plagiarism detection tools
+software analysis
+arts computing
+codes symbols
+computer programming
+computer programs
+detection methods
+detection systems
+evolutionary algorithms
+evolutionary computing
+genetic algorithms
+genetic programming
+information services
+large collections
+optimization
+parameter values
+particle swarm optimization
+particle swarm optimization pso
+particle swarms
+plagiarism detections
+probability density function
+signal detection
+similarity functions
+similarity matching
+state of the arts
+training sets
+algorithms
+basic structure
+common source
+function domain
+information science
+information technology
+keypoints
+maps
+recognition methods
+source code plagiarism
+source codes
+string matching algorithm
+structural feature
+structural features
+structure features
+visual communication
+visual domain recognition
+visual effects
+visual positioning
+visual recognition
+answer-set programming
+educational institutions
+logic programming
+plagiarism detection
+program analysis
+university of technology
+answer-set programming
+plagiarism detection
+program analysis
+academic dishonesties
+academic integrities
+computer programs
+entropy
+entropy-based methods
+online submissions
+privacy concerns
+programming course
+quality assurance
+short-comings
+teaching
+computer programming
+curricula
+cut and paste culture
+cut-and-paste
+educational institutions
+electronic plagiarism detection service
+information technology
+learning programming
+natural sciences computing
+peer to peer
+plagiarism
+plagiarism detection
+programming
+source code
+source codes
+teaching
+automated support
+complex task
+computer science education
+computer programming
+computer science education
+disciplinary actions
+education computing
+engineering education
+engineers
+multiple class
+novice programmer
+plagiarism
+plagiarism detection
+program development
+program development environment
+programming
+source codes
+students
+computer programming
+digital design
+gene sequence
+graph theory
+hardware description language hdl
+integrated circuits
+non-technical courses
+sensitivity analysis
+students
+systems analysis
+world wide web
+computer assisted instruction
+computer aided instruction
+computer programming
+engines
+java
+java programming language
+open sources
+plagiarism detection
+source codes
+web services
+cheating
+computer-assisted instruction
+open source
+plagiarism
+source code plagiarism detection engine
+application programs
+call graph
+call graphs
+clones
+cloning
+computer programming languages
+duplication
+factorization
+inlining
+outlining
+similarity
+source code
+source codes
+suffix indexation
+xml
+abstract syntax trees
+abstract syntax tree
+abstracting
+artificial intelligence
+cluster
+clustering methods
+comparative evaluations
+computer software
+detection approach
+educational community
+fingerprints
+manual checking
+plagiarism
+plagiarism detection
+program similarity
+programming assignments
+similarity measurements
+source codes
+syntactics
+syntax structure
+algorithms
+coding
+computation
+computer programming languages
+forestry
+intellectual property
+levenshtein distanc
+ncp-algorithm
+nocrib
+plagiarism
+problem solving
+programing languages
+source codes
+tokens
+trie-tree
+automated detection
+intellectual property
+plagiarism detection
+semantics
+software metrics
+source codes
+student cheating
+students
+algorithms
+coding model
+coding style
+combined method
+evaluation experiments
+false positive
+hidden markov models
+hidden markov model
+in-class source code plagiarism
+plagiarism detection
+programming class
+source code plagiarisms
+source codes
+students
+computer science students
+decision making
+decision making process
+detecting plagiarism
+distance-based
+human users
+linguistics
+parameterized
+programming language
+query languages
+similarity distance
+similarity measure
+source codes
+source files
+user need
+wavelet transforms
+work focus
+segmentation
+similarity measure
+source code plagiarism
+algorithms
+alignment
+asymmetric local alignment
+bioinformatics
+biology
+codes symbols
+coding
+computer programs
+evolution process
+evolutionary algorithms
+internet
+mathematics
+matrices
+paper
+phylogeny of source codes
+plagiarism detection
+signal detection
+source code similarity
+trees
+trees mathematics
+academic institutions
+computer science
+data searches
+distance measure
+education computing
+effective measures
+engineering education
+exponential increase
+finger printing
+intellectual property
+large database
+mouse clicks
+performance analysis
+research institutes
+source code plagiarisms
+source codes
+technological trends
+finger printing
+plagiarism
+codes symbols
+computer programming
+computing courses
+education computing
+engineering education
+reuse
+self-plagiarism
+software engineering
+source-code plagiarism
+source-code plagiarism definition
+survey
+algorithms
+computer programming
+computer programming languages
+computer software
+data structures
+education
+keyword based programming language
+optimization
+plagiarism
+probability
+software package pdetect
+artificial intelligence
+fingerprints
+graph theory
+pattern recognition
+plagiarism
+source code fingerprinting
+c codes
+data processing
+eigenvalues and eigenfunctions
+eigenvectors
+integrated evaluation
+intelligent control
+measure precision
+parameter variable
+source codes
+theory and methods
+weighted attributes
+cheating means
+code plagiarism
+code similarity detection
+information science
+semantic computing
+semantics
+similarity detection
+structure metric
+algorithms
+automation
+branch and bounds
+branch-and-bound algorithms
+control
+dynamic programming algorithm
+electrical engineering
+false positive
+high degree of accuracy
+intellectual property
+linear programming
+longest common subsequence problem
+longest common subsequences
+plagiarism detection
+process control
+programming course
+quadratic time
+string similarity
+branch and bound
+longest common subsequence
+source-code
+graph similarity
+plagiarism
+program source
+detection method for plagiarised programming code
+e-learning
+plagiarism detection
+plagiarism plagiarised programming code
+programming codes
+side-by-side visualisation of plagiarised programm
+source code plagiarisms
+visualisation
+visualization
+academic environment
+computer programming languages
+greedy string tiling
+information management
+information retrieval
+intellectual property
+java
+programming assignments
+similarity detection
+source code plagiarisms
+source code repositories
+students
+university students
+information retrieval
+plagirism detection
+adaptive algorithms
+adaptive local alignment
+alignment
+clustering algorithms
+intellectual property
+local outlier factor
+local alignment
+local outlier factors
+plagiarism
+program plagiarism
+program plagiarism detection
+similarity measurement
+similarity measurements
+software similarities
+software similarity
+statistics
+author identification
+computer crime
+computer software
+crime
+data flow
+data flow analysis
+metics
+program similarity
+security of data
+semantics
+software forensics
+c programming language
+distance
+distance metrics
+energy management
+energy resources
+family
+frequency extraction
+measurement techniques
+plagiarism
+research communities
+similarity and attributes
+code similarity
+documents similarity
+information retrieval
+plagiarism
+search engines
+string search
+abstract syntax trees
+artificial intelligence
+computer science course
+detecting methods
+intellectual property
+plagiarism detection
+program statements
+programming exercise
+software engineering
+source code plagiarisms
+trees mathematics

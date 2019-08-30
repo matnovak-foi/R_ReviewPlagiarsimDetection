@@ -1,0 +1,150 @@
+on the importance of lexicon structure and style for identifying source code plagiarism
+dcu fire-2014 an information retrieval approach for source code plagiarism detection
+review of source-code plagiarism detection in academia
+process model improvement for source code plagiarism detection in student programming assignments
+source-code plagiarism in universities a comparative study of student perspectives in china and the uk
+plagiarism detection tool parikshak
+a source code similarity system for plagiarism detection
+source code plagiarism - a student perspective
+ast-based multi-language plagiarism detection method
+pde4java plagiarism detection engine for java source code a clustering approach
+an approach to source-code plagiarism detection and investigation using latent semantic analysis
+plagiarism detection for java a tool comparison
+finding plagiarisms among a set of programs with jplag
+desktop tools for offline plagiarism detection in computer programs
+instructor-centric source code plagiarism detection and plagiarism corpus
+a research on plagiarism detecting method based on xml similarity and clustering
+an empirical approach for detecting program similarity and plagiarism within a university programming environment
+computation of program source code similarity by composition of parse tree and call graph
+efficient clustering-based source code plagiarism detection using piy
+detection of source code similitude in academic environments
+a fuzzy-based approach to programming language independent source-code plagiarism detection
+efficient plagiarism detection for large code repositories
+a plagiarism detection system
+a fuzzy r code similarity detection algorithm
+plagiarism in programming assignments
+integrating an online compiler and a plagiarism detection tool into the moodle distance education system for easy assessment of programming assignments
+towards the validation of plagiarism detection tools by means of grammar evolution
+programming plagiarism as a social phenomenon
+online tool for student s source code plagiarism detection
+plagiarism detection for java programs without source codes
+automatic evaluation of correctness and originality of source codes
+observations on plagiarism in programming courses
+plagiarism detection a tool survey and comparison
+similarity detection in java programming assignments
+academic integrity perceptions regarding computing assessments and essays
+educating computer programming students about plagiarism through use of a code similarity detection tool
+a coding style-based plagiarism detection
+plagiarism detection across programming languages
+the source code plagiarism detection using ast
+detection of plagiarism in students programs using a data mining algorithm
+from plagiarism to malware detection
+language-independent clone detection applied to plagiarism detection
+evaluating the performance of lsa for source-code plagiarism detection
+tree-based comparison for plagiarism detection and automatic marking of programming assignments
+an xml plagiarism detection model for c program
+analysis of programming code similarity by using intermediate language
+plagiarism detection in programming exercises using a markov model approach
+source code plagiarsim detection method using ontologies
+an inductive inference approach to plagiarsim detection in computer-programs
+differential weight based hybrid approach to detect software plagiarism
+source code plagiarism detection using biological string similarity algorithms
+improving similarity measure for java programs based on optimal matching of control flow graphs
+global plagiarism management through intelligence of hawk eye
+automatic plagiarism detection in programming laboratory courses
+an ast-based tool spector for plagiarism detection the approach functionality and implementation
+a comparison of software tools for plagiarism detection in programming assignments
+on the detection of source code re-use
+an intelligent online assessment system for programming courses
+clscr cross language source code reuse detection using intermediate language
+improving plagiarism detection in coding assignments by dynamic removal of common ground
+musings on misconduct a practitioner reflection on the ethical investigation of plagiarism within programming modules
+taps a moss extension for detecting software plagiarsim at scale
+uncovering source code reuse in large-scale academic environments
+clone detection algorithm based on the abstract syntax tree approach
+automatic source code plagiarism detection
+a plagiarism detection technique for java program using bytecode analysis
+code analyzer for an online course management system
+source code validation and plagiarism detection technology-rich course experiences
+shared information and program plagiarism detection
+a development and application of similarity detection methods for plagiarism of online reports
+a token oriented measurement method of source code similarity
+plagiarism detection algorithm for source code in computer science education
+towards intellectual property theft prevention economic significance of automatic software plagiarism verification
+an online system for scoring and plagiarism detection in university programing class
+detection of plagiarism in computer programming assignments
+fast plagiarism detection system
+design patterns based pre-processing of source code for plagiarism detection
+a tool that detects plagiarism in pascal programs
+metrics based plagarism monitoring
+plagiarism in programming a review and discussion of the factors
+a program plagiarism evaluation system
+similarity detection method based on assembly language and string matching
+audentes automatic detection of tentative plagiarism according to a reference solution
+detection of similarities in student programs
+development of an e-learning back-end system for code assessment in elementary programming practice
+similarity detection s application using chi-square test in the property of counting method
+visualizing program similarity in the ac plagiarism detection system
+sim a utility for detecting similarity in computer programs
+computer algorithms for plagiarism detection
+a technique for detecting plagiarism in computer code
+preventing and detecting plagiarism in programming course
+identification of program similarity in large populations
+detecting plagiarsim in student pascal programs
+comoto the collaboration modeling toolkit
+plagiarism a la mode a comparison of automated systems for detecting suspected plagiarism
+plagdetect a java programming plagiarsim detection tool
+similarity and originality in code plagiarism and normal variation in student assignments
+plagiarism and programming a survey of student attitudes
+yap3 improved detection of similarities in computer program and other texts
+an automatic assessment marking and plagiarism detection
+software metrics and plagiarism detection
+support for checking plagiarism in e-learning
+analysis on identification technologies of program code similarity
+an xml plagiarism detection algorithm for procedural programming languages
+plagiarism in e-learning systems identifying and solving the problem for practical assignments
+the issue of software plagiarism a student view
+automated evaluation of programming assignments
+the study of plagiarism detection for object-oriented programming
+automatic generation of plagiarism detection among student programs
+experience using moss to detect cheating on programming assignments
+detection of plagiarism in programming assignments
+authorship is continuous managing code plagiarism
+detecting plagiarisms in elementary programming courses
+homology detection based on abstract syntax tree combined simple semantics analysis
+a program plagiarism detection model based on information distance and clustering
+detecting computer code plagiarism in higher education
+a new undergraduate computer arithmetic software laboratory
+research paper plagiarism detection for haskell with holmes
+an instructional aid for student programs
+evolving similarity functions for code plagiarism detection
+correlations in computer programs
+a visual domain recognition method based on function mode for source code plagiarism
+the system kato detecting cases of plagiarism for answer-set programs
+entropy based verification of academic integrity
+source code plagiarism
+plagiarising of source code by novice programmers a cry for help
+gene sequence inspired design plagiarism screening
+plaggie gnu-licensed source code plagiarism detection engine for java exercises
+viewing functions as token sequences to highlight similarities in source code
+buaa antiplagiarism a system to detect plagiarism for c source code
+the ncp algorithm of fuzzy source code comparison
+does automated anti-plagiarism have to be complex evaluating more appropriate software metrics for finding collusion
+a two-step in-class source code plagiarism detection method utilizing improved cm algorithm and sim
+a novel framework to detect source code plagiarism
+generating pylogenetic tree of homogeneous source code in a plagiarism detection system
+source code plagiarism detection and performance analysis using fingerprint based distance measure method
+towards a definition of source-code plagiarism
+pdetect a clustering approach for detecting plagiarism in source code datasets
+source code fingerprinting using graph grammar induction
+recognition on source codes similarity with weighted attributes eigenvector
+a new method for code similarity detection
+batch source-code plagiarism detection using an algorithm for the bounded longest common subsequence problem
+plagiarism detection in source programs using structural similarities
+checking plagiarism in e-learning
+eplag a two layer source code plagiarism detection system
+plagiarism detection among source codes using adaptive methods
+author identification of software source code with program dependence graphs
+distance indices for the detection of similarity in c programs
+issues related to the detection of source code plagiarism in students assignments
+a source code plagiarism detecting method using alignment with abstract syntax tree elements

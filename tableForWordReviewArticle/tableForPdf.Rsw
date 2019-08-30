@@ -1,0 +1,11 @@
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+<<results='asis'>>=
+library(xtable)
+print(xtable(reviewArticlesTable), tabular.environment = "longtable", floating = FALSE)
+@
+
+\end{document}
