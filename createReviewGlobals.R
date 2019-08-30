@@ -2,8 +2,8 @@ source("reviewIncludes.R")
 
 #mainProgram
 #fileName <- "D:/FOI/Doktorski rad/Plagijati pretraživanja exports/Analiza članaka.xlsx"
-fileName <- "/media/matnovak/HomeData/FOI/Doktorski rad/Plagijati pretraživanja exports/Analiza članaka.xlsx"
-#fileName <- "ExampleReviewExcel.xlsx"
+#fileName <- "/media/matnovak/HomeData/FOI/Doktorski rad/Plagijati pretraživanja exports/Analiza članaka.xlsx"
+fileName <- "ExampleReviewExcel.xlsx"
 sheetName <- "All articles - filtered"
 mydata <- loadSheetFromXMLFile(fileName,sheetName)
 mydata <- mydata[order(mydata$Year,mydata$MyIDFiltered),]
